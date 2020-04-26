@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/knowit-assignment/static/css/main.8696375e.chunk.css",
+    "main.js": "/knowit-assignment/static/js/main.966769ee.chunk.js",
+    "main.js.map": "/knowit-assignment/static/js/main.966769ee.chunk.js.map",
+    "runtime-main.js": "/knowit-assignment/static/js/runtime-main.bf4f09ee.js",
+    "runtime-main.js.map": "/knowit-assignment/static/js/runtime-main.bf4f09ee.js.map",
+    "static/js/2.6f4531d5.chunk.js": "/knowit-assignment/static/js/2.6f4531d5.chunk.js",
+    "static/js/2.6f4531d5.chunk.js.map": "/knowit-assignment/static/js/2.6f4531d5.chunk.js.map",
+    "index.html": "/knowit-assignment/index.html",
+    "precache-manifest.95e3e8cbe1d55756af63be353d888427.js": "/knowit-assignment/precache-manifest.95e3e8cbe1d55756af63be353d888427.js",
+    "service-worker.js": "/knowit-assignment/service-worker.js",
+    "static/css/main.8696375e.chunk.css.map": "/knowit-assignment/static/css/main.8696375e.chunk.css.map",
+    "static/js/2.6f4531d5.chunk.js.LICENSE.txt": "/knowit-assignment/static/js/2.6f4531d5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf4f09ee.js",
+    "static/js/2.6f4531d5.chunk.js",
+    "static/css/main.8696375e.chunk.css",
+    "static/js/main.966769ee.chunk.js"
+  ]
+}
