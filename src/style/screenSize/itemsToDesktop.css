@@ -1,0 +1,49 @@
+@media (min-width: 600px) {
+    .items-container{ 
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+@media (min-width: 900px) {
+    .items-container {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+@media (min-width: 1024px) {
+    .items-container { 
+        grid-template-columns: repeat(4, 1fr); 
+    }
+}
+@media (min-width: 1440px) {
+    .items-container { 
+        grid-template-columns: repeat(5, 1fr); 
+    }
+
+    /* SUPER SIMPLE ON HOVER ANIMATION */
+
+    .card:hover{
+        cursor: pointer;
+        transform: scale(1.015);
+        -webkit-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.75);
+    }
+    #watchers{
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.5s linear;
+    }
+    .card:hover #watchers{
+        visibility: visible;
+        opacity:1;
+    }
+    #onHoverContainer{
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.5s linear;
+    }
+    .card:hover #onHoverContainer{
+        display: inherit;
+        visibility: visible;
+        opacity:1;
+    }
+}

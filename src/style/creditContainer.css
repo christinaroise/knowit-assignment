@@ -1,0 +1,11 @@
+.creditContainer{
+    text-align: center;
+    padding: 2rem;
+    color: #D081C4;
+}
+.creditLink{
+    color: #C6C794;
+}
+.creditLink:hover{
+    color: #89DEFF;
+}

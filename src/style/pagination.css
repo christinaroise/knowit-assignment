@@ -1,0 +1,32 @@
+.paginationContainer{
+    width: 90vw;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.paginationContainer > button{
+    color: #89DEFF;
+    background-color: transparent;
+    border: none;
+}
+.item{
+    padding: 0px 5px;
+}
+.item-link{
+    color: #89DEFF;
+    font-weight: 500;
+}
+.item-link:hover{
+    color: #DBB872;
+    font-size: 1rem;
+}
+.current{
+    color: #DBB872;
+    font-weight: 500;
+}
+.current:hover{
+    color: #DBB872;
+    font-size: 1rem;
+}
